@@ -7,6 +7,7 @@ SQLITETERM is a simple NCURSES-based program written in C that allows you to vie
 1. **Compilation**: Compile the program using a C compiler. Make sure you have the necessary development libraries installed for NCURSES and SQLite3.
 
    ```bash
+   sudo apt-get install libsqlite3-dev
    gcc -o sqliteterm sqliteterm.c -lncurses -lsqlite3
    ```
 
